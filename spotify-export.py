@@ -4,9 +4,9 @@ import pandas as pd
 import csv
 
 # Spotify API credentials (Replace with your details)
-CLIENT_ID = "42466d43e9ed41ebb90de817918c6bf7"
-CLIENT_SECRET = "bd47e3b057494f6db5b534bedb1c4737"
-REDIRECT_URI = "http://localhost:8888/callback"
+CLIENT_ID = "<CLIENT ID>"
+CLIENT_SECRET = "<CLIENT_SECRET>"
+REDIRECT_URI = "<REDIRECT URI>"
 
 # Set up authentication
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
